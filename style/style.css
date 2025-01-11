@@ -155,6 +155,9 @@ margin: 28px 0px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
+.box1 , .box2 , .box3 , .box4{
+    padding-bottom: 10px;
+}
 /* .card-box2{
     position: static;
     width: 302px;
@@ -215,10 +218,9 @@ font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
-letter-spacing: 0%;
 text-align: left;
 }
-.card2p{
+/* .card2p{
 color: rgb(14, 14, 14);
 opacity: 0.7;
 font-family: Fira Sans;
@@ -227,7 +229,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-}
+} */
 .card2{
 position: static;
 width: 1280px;
@@ -236,15 +238,10 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-gap: 32;
-padding: 0px;
-
-flex: none;
-order: 1;
-flex-grow: 0;
 margin: 33px 0px;
+margin-bottom: 1px;
 }
-.card2-box4  {
+.card2-box1  {
 position: static;
 width: 410.67px;
 height: 325px;
@@ -255,8 +252,6 @@ align-items: flex-start;
 gap: 24;
 padding: 32px;
 flex: none;
-order: 0;
-flex-grow: 1;
 margin: 0px 12px;
 
 box-sizing: border-box;
@@ -276,8 +271,6 @@ background: rgba(84, 144, 245, 0.2);
     gap: 24;
     padding: 32px;
     flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 12px;
     
     box-sizing: border-box;
@@ -296,8 +289,6 @@ align-items: flex-start;
 gap: 24;
 padding: 32px;
 flex: none;
-order: 0;
-flex-grow: 1;
 margin: 0px 12px;
 
 box-sizing: border-box;
@@ -330,4 +321,51 @@ line-height: 17px;
 }
 .card-btn3{
     background: rgb(255, 194, 57);
+}
+
+.back{
+    background-color: #ffffff;
+    background-image: url("/assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position: top 20px left 10px;
+}
+
+.quote{
+margin-top: -380px;
+position: absolute;
+width: 1280px;
+height: 256px;
+background: rgb(255, 255, 255) ;
+margin-left: 43px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+}
+
+.quote-text{
+    font-family: Fira Sans;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+    padding-top: 48px;
+    padding-left: 10px;
+
+
+}
+.quote-h{
+    font-family: Fira Sans;
+padding-left: 10px;
+margin-top: -6px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+letter-spacing: 0%;
+}
+.quote-p{
+    padding-left: 10px;
+    margin-top: -9px;
 }
